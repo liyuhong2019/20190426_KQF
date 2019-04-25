@@ -1,0 +1,64 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'KQF' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+
+  # Pods for WLTX
+  #  ------------------ 友盟 start ------------------
+  # 友盟 依赖库
+	pod 'UMCCommon'
+	pod 'UMCSecurityPlugins'
+
+  # 友盟 日志库（调试）上架前可以移除
+    pod 'UMCCommonLog'
+
+  # 友盟 统计
+     pod 'UMCAnalytics'
+
+  # 友盟 推送
+      #pod 'UMCPush'
+  # 友盟 登录分享(微信版)
+	# 集成微信(精简版0.2M)
+    # pod 'UMCShare/Social/ReducedWeChat'
+    # 集成微信(完整版14.4M)
+    pod 'UMCShare/Social/WeChat'
+
+  #  ------------------ 友盟 end ------------------
+
+  # ------------------ 常用、通用开源框架/库 start ------------------
+  	#SDWebImage
+  	#AFNetworking
+  	#MBProgressHUD hub提示
+  	#SVProgressHUD hub提示
+  	#MJExtension 字典转模型
+  	#MJRefresh	上下拉刷新
+  	#IQKeyboardManager 键盘监听回收
+  pod 'IQKeyboardManager'
+
+  # ------------------ 常用、通用开源框架/库 start ------------------
+
+  # ------------------ 第三方开源框架/库 start ------------------
+    # 提示信息
+  pod 'Toast'
+  	# 广告轮播图、横幅
+  		# 默认依赖于 SDWebimage框架
+  pod 'SDCycleScrollView'
+  	# 多图片选择器 TZImagePickerController
+  	# 抽屉 MMDrawerController
+
+  	# 日期选择器、城市选择器 STPickerView
+  pod 'STPickerView'
+  	# 倒计时按钮 JKCountDownButton
+  pod 'JKCountDownButton'
+  	# 防止按钮 多次点击 UIButton-touch
+    
+   
+  # ------------------ 第三方开源框架/库 end ------------------
+
+
+  # ------------------ 其他、参考框架/库 start ------------------
+  # ------------------ 其他、参考框架/库 end ------------------
+
+end

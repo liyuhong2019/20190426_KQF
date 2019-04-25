@@ -1,0 +1,28 @@
+// 所有的预编译的文件都会通过这个通道进行预编译
+
+
+#ifndef HeaderFileManagers_pch
+#define HeaderFileManagers_pch
+
+#import "AppDelegate.h"
+// 宏定义
+#import "LYHMacroDefinition.h"
+#import "WLTX_App_HttpRequestUrlManagers.h"
+// 第三方SDK
+#import "HeaderFile_ThreeSDK_Tentcent.h"
+#import "HeaderFile_ThreeSDK_Ali.h"
+
+
+// 开源第三方框架
+#import "UIImageView+WebCache.h"  // 图片缓存
+// 开源第三方框架封装
+#import "AFNetworkingTool.h"
+
+// 分类
+#import "HeaderFile_SystemKitCategory.h"
+
+// app
+#import "HeaderFile_App.h"
+//#import "HeaderFile_Navigation_TabBar.h"
+
+#endif /* HeaderFileManagers_pch */
