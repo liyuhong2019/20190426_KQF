@@ -11,11 +11,18 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self test];
+    
+    
+    
+    [self test];
+
 }
 
 - (void)test
 {
     NSLog(@"ccc");
+    NSLog(@"ccc");
+
 }
 
 @end

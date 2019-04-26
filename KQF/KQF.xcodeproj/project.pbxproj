@@ -1332,7 +1332,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/KQF/Classes/ThreeSDKToolKit(第三方工具包)/TencentSDK_Class(腾讯SDK)/Bugly(bug卡顿检测)",
 				);
-				GCC_PREFIX_HEADER = "/Users/liyuhong2018/Desktop/李宇鸿/20190425_Project_KQF/Project/KQF/KQF/Classes/AppDelegateKit(应用程序的工具包)/LYH_HeaderFileManagers(头文件管理者)/HeaderFileManagers.pch";
+				GCC_PREFIX_HEADER = "/Users/liyuhong2018/Documents/iOS_Github_Project/pull/20190426_KQF/KQF/KQF/Classes/AppDelegateKit(应用程序的工具包)/LYH_HeaderFileManagers(头文件管理者)/HeaderFileManagers.pch";
 				INFOPLIST_FILE = KQF/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1356,7 +1356,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/KQF/Classes/ThreeSDKToolKit(第三方工具包)/TencentSDK_Class(腾讯SDK)/Bugly(bug卡顿检测)",
 				);
-				GCC_PREFIX_HEADER = "/Users/liyuhong2018/Desktop/李宇鸿/20190425_Project_KQF/Project/KQF/KQF/Classes/AppDelegateKit(应用程序的工具包)/LYH_HeaderFileManagers(头文件管理者)/HeaderFileManagers.pch";
+				GCC_PREFIX_HEADER = "/Users/liyuhong2018/Documents/iOS_Github_Project/pull/20190426_KQF/KQF/KQF/Classes/AppDelegateKit(应用程序的工具包)/LYH_HeaderFileManagers(头文件管理者)/HeaderFileManagers.pch";
 				INFOPLIST_FILE = KQF/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
