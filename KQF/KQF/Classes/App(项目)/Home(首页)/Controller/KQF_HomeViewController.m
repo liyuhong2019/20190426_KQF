@@ -11,14 +11,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self test];
-    
-    
-    
-    [self test];
-    
-    
-    [self test];
-
 
 }
 
