@@ -12,7 +12,10 @@
     [super viewDidLoad];
     [self test];
     
-    
+    [self test];
+    [self test];
+    [self test];
+
 }
 
 - (void)test
